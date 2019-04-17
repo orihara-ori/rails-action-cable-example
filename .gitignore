@@ -1,0 +1,12 @@
+/mysql/data/*
+!/**/.gitkeep
+
+/app/log/*
+/app/tmp/*
+/.env
+
+/app/bundle
+
+.powenv
+.DS_Store
+.idea
