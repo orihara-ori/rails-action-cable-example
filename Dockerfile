@@ -9,11 +9,6 @@ RUN apt-get update && \
         build-essential \
         vim
 
-#COPY app/Gemfile /app/Gemfile
-#COPY Gemfile.lock /app
-#RUN mkdir /app
-
 WORKDIR /app
 
-#RUN bundle install
 
