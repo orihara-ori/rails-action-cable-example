@@ -1,8 +1,7 @@
 class RoomChannel < ApplicationCable::Channel
   def subscribed
     Rails.logger.info("--------subscribed!!!!!!!!!!!!!")
-    # ここで clientのjsに返信を送るようになる
-    #stream_from "room_channel"
+    stream_from "room_channel"
   end
 
   def unsubscribed
